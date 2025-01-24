@@ -183,28 +183,6 @@ body {
 }
 
 /* Safari Specific Fixes */
-@media not all and (min-resolution:.001dpcm) {
-    @supports (-webkit-appearance:none) {
-        #header {
-            font-size: 3vmax; /* Adjust font size for Safari */
-            margin-left: 50%; /* Center align */
-            transform: translateX(-50%); /* Center align */
-        }
-        #menu {
-            font-size: 3vmax; /* Adjust font size for Safari */
-            margin-left: 50%; /* Center align */
-            transform: translateX(-50%); /* Center align */
-            margin-top: 5vw; /* Adjust top margin */
-        }
-        .button {
-            font-size: 2.5vmax; /* Adjust font size for Safari */
-            margin-left: 50%; /* Center align */
-            transform: translateX(-50%); /* Center align */
-        }
-        #ref, #Amount-ref, #lang {
-            font-size: 2.5vmax; /* Adjust font size for Safari */
-        }
-    }
-}
+
 
 
